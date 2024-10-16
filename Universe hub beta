@@ -1,0 +1,605 @@
+local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
+
+local Window = Fluent:CreateWindow({
+    Title = "UNIVERSE Hub",
+    SubTitle = "By Fizss, Rafif, El_kazzz, Ifal",
+    TabWidth = 100,
+    Size = UDim2.fromOffset(580, 460),
+    Acrylic = false,
+    Theme = "Dark",
+    MinimizeKey = Enum.KeyCode.RightShift})
+
+local Tabs = {
+    Map = Window:AddTab({ Title = "Map", Icon = "map" }),
+    Main = Window:AddTab({ Title = "Main", Icon = "trees" }),
+    City = Window:AddTab({ Title = "City", Icon = "building-2" }),
+    Space = Window:AddTab({ Title = "Space", Icon = "rocket" }),
+    Aquatic = Window:AddTab({ Title = "Aquatic", Icon = "anchor" })}
+
+local Options = Fluent.Options
+
+do
+    Window:Dialog({
+        Title = "Credit",
+        Content = "Made By Fizss, Rafif, El_kazzz, Ifal",
+        Buttons = {
+            {
+                Title = "Confirm",
+                Callback = function()
+                
+                end
+            },
+            {
+                Title = "Cancel",
+                Callback = function()
+                
+                end
+            }
+                  }})
+
+    Fluent:Notify({
+        Title = "Notification",
+        Content = "Made By Fizss",
+        SubContent = "@Fizss1 On YouTube",
+        Duration = 10})
+    
+    Tabs.Main:AddParagraph({
+        Title = "Common",
+        Content = "Here's All The Common Noobies\nSecond line!"})
+
+    Tabs.Main:AddParagraph({
+        Title = "Mythical",
+        Content = "Here's All The Mythical Noobies\nSecond line!"})
+
+    Tabs.Main:AddParagraph({
+        Title = "Exotic",
+        Content = "Here's All The Exotic Noobies\nSecond line!"})
+
+    Tabs.Map:AddButton({
+        Title = "Go To City",
+        Description = "Click ''Go To City Button'' Then Wait Until A Truck Coming And Get Into The Truck",
+        Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/ERaQ27jp"))()
+        end})
+        
+        Tabs.Main:AddParagraph({
+        Title = "Auto Go to Space",
+        Content = "Go To Space But U Have To Get 4 Items For Space\nSecond line!"})
+        
+        Tabs.Map:AddButton({
+        Title = "Auto Items 1",
+        Description = "Get Items 1",
+        Callback = function()
+        loadstring(game:HttpGet("https://bin.mudfish.net/r/947-4545-2466"))()
+        end})
+        
+        Tabs.Map:AddButton({
+        Title = "Auto Items 2",
+        Description = "Get Items 2",
+        Callback = function()
+        loadstring(game:HttpGet("https://bin.mudfish.net/r/731-4734-9597"))()
+        end})
+        
+        Tabs.Map:AddButton({
+        Title = "Auto Items 3",
+        Description = "Get Items 3",
+        Callback = function()
+        loadstring(game:HttpGet("https://bin.mudfish.net/r/542-9620-2988"))()
+        end})
+        
+        Tabs.Map:AddButton({
+        Title = "Auto Items 4",
+        Description = "Get Items 4",
+        Callback = function()
+        loadstring(game:HttpGet("https://bin.mudfish.net/r/143-0879-2920"))()
+        end})
+    
+    Tabs.Main:AddButton({
+        Title = "Normal Noobies",
+        Description = "Get Normal Noobies",
+        Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/CxYA4DYn"))()
+        end})
+        
+    Tabs.Main:AddButton({
+        Title = "Ads Noobies",
+        Description = "Get Ads Noobies",
+        Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/CZENQyJm"))()
+        end})
+
+    Tabs.Main:AddButton({
+        Title = "Adventurer Noobies",
+        Description = "Get Adventurer Noobies",
+        Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/nUK33mwJ"))()
+        end})
+
+    Tabs.Main:AddButton({
+    	Title = "Bucket Noobies",
+       Description = "Get Bucket Noobies",
+       Callback = function()
+       loadstring(game:HttpGet("https://pastebin.com/raw/CZENQyJm"))()
+       end})  
+
+    Tabs.Main:AddButton({
+        Title = "Cashier Noobies",
+        Description = "Get Cashier Noobies",
+        Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/Esc7FHg0"))()
+        end})
+
+    Tabs.Main:AddButton({
+        Title = "Chillin Noobies",
+        Description = "Get Chillin Noobies",
+        Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/wGiiYzGR"))()
+        end})
+
+    Tabs.Main:AddButton({
+        Title = "Clothing Staff Noobies",
+        Description = "Get Clothing Staff Noobies",
+        Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/ZMjLDf7V"))()
+        end})
+
+    Tabs.Main:AddButton({
+        Title = "Cool Noobies",
+        Description = "Get Cool Noobies",
+        Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/wQYsEXKF"))()
+        end})
+
+    Tabs.Main:AddButton({
+        Title = "Female Noobies",
+        Description = "Get Female Noobies",
+        Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/RtQ8Wzm2"))()
+        end})
+
+    Tabs.Main:AddButton({
+        Title = "Gangster Noobies",
+        Description = "Get Gangster Noobies",
+        Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/kZGd89EU"))()
+        end})
+
+    Tabs.Main:AddButton({
+        Title = "Grandma Noobies",
+        Description = "Get Grandma Noobies",
+        Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/UNdJhrRc"))()
+        end})
+
+    Tabs.Main:AddButton({
+        Title = "Grandpa Noobies",
+        Description = "Get Grandpa Noobies",
+        Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/XzgMYRkk"))()
+        end})
+
+    Tabs.Main:AddButton({
+        Title = "Injured Noobies",
+        Description = "Get Injured Noobies",
+        Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/f5cTNZZy"))()
+        end})
+
+    Tabs.Main:AddButton({
+        Title = "Lily Pad Noobies",
+        Description = "Get Lily Pad Noobies",
+        Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/17mevMVp"))()
+        end})
+
+    Tabs.Main:AddButton({
+        Title = "Mama Noobies",
+        Description = "Get Mama Noobies",
+        Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/vymm0kmD"))()
+        end})
+
+    Tabs.Main:AddButton({
+        Title = "Papa Noobies",
+        Description = "Get Papa Noobies",
+        Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/gBqN4DsW"))()
+        end})
+        
+        Tabs.Main:AddButton({
+        Title = "Mushroom Noobies",
+        Description = "Get Mushroom Noobie",
+        Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/PqccST0x"))()
+        end})
+        
+        Tabs.Main:AddButton({
+        Title = "Pixel Noobies",
+        Description = "Get Pixel Noobies",
+        Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/me3Chc08"))()
+        end})
+
+    Tabs.Main:AddButton({
+        Title = "Smartphone Noobies",
+        Description = "Get Smartphone Noobies",
+        Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/EJQcADQc"))()
+        end})
+        
+        Tabs.Main:AddButton({
+        Title = "Sakura Noobies",
+        Description = "Get Sakura Noobies",
+        Callback = function()
+        loadstring(game:HttpGet("https://bin.mudfish.net/r/484-2247-0108"))()
+        end})
+        
+        Tabs.Main:AddButton({
+        Title = "Spray Noobies",
+        Description = "Get Spray Noobies",
+        Callback = function()
+        loadstring(game:HttpGet("https://bin.mudfish.net/r/133-7603-0773"))()
+        end})
+        
+        Tabs.Main:AddButton({
+        Title = "Abandoned Noobies",
+        Description = "Get Abandoned Noobies",
+        Callback = function()
+        loadstring(game:HttpGet("https://bin.mudfish.net/r/142-7286-8939"))()
+        end})
+        
+        Tabs.Main:AddButton({
+        Title = "Fire Noobies",
+        Description = "Get Fire Noobies",
+        Callback = function()
+        loadstring(game:HttpGet("https://bin.mudfish.net/r/698-5136-2164"))()
+        end})
+        
+        Tabs.Main:AddButton({
+        Title = "Cinema Noobies",
+        Description = "Get Cinema Noobies",
+        Callback = function()
+        loadstring(game:HttpGet("https://bin.mudfish.net/r/889-9480-3122"))()
+        end})
+        
+        Tabs.Main:AddButton({
+        Title = "Food Inspector Noobies",
+        Description = "Get Food Inspector Noobies",
+        Callback = function()
+        loadstring(game:HttpGet("https://bin.mudfish.net/r/416-4382-4825"))()
+        end})
+        
+        Tabs.Main:AddButton({
+        Title = "Crystal Noobies",
+        Description = "Get Crystal Noobies",
+        Callback = function()
+        loadstring(game:HttpGet("https://bin.mudfish.net/r/180-7002-4530"))()
+        end})
+        
+        Tabs.Main:AddButton({
+        Title = "Fisherman Noobies",
+        Description = "Get Fisherman Noobies",
+        Callback = function()
+        loadstring(game:HttpGet("https://bin.mudfish.net/r/262-7284-6955"))()
+        end})
+        
+        Tabs.Main:AddButton({
+        Title = "Bush Noobies",
+        Description = "Get Bush Noobies",
+        Callback = function()
+        loadstring(game:HttpGet("https://bin.mudfish.net/r/499-3401-8948"))()
+        end})
+        
+        Tabs.Main:AddButton({
+        Title = "Samurai Noobies",
+        Description = "Get Samurai Noobies",
+        Callback = function()
+        loadstring(game:HttpGet("https://bin.mudfish.net/r/658-5646-9524"))()
+        end})
+        
+        Tabs.Main:AddButton({
+        Title = "Kitten Noobies",
+        Description = "Get Kitten Noobies",
+        Callback = function()
+        loadstring(game:HttpGet("https://bin.mudfish.net/r/736-1615-2860"))()
+        end})
+        
+        Tabs.Main:AddButton({
+        Title = "Painting Noobies",
+        Description = "Get Painting Noobies",
+        Callback = function()
+        loadstring(game:HttpGet("https://bin.mudfish.net/r/538-2655-9827"))()
+        end})
+        
+        Tabs.Main:AddButton({
+        Title = "Toy Noobies",
+        Description = "Get Toy Noobies",
+        Callback = function()
+        loadstring(game:HttpGet("https://bin.mudfish.net/r/601-9895-9237"))()
+        end})
+                
+        Tabs.Main:AddButton({
+        Title = "Stone Noobies",
+        Description = "Get Stone Noobies",
+        Callback = function()
+        loadstring(game:HttpGet("https://bin.mudfish.net/r/361-6951-0333"))()
+        end})
+        
+        Tabs.Main:AddButton({
+        Title = "TV Noobies",
+        Description = "Get TV Noobies",
+        Callback = function()
+        loadstring(game:HttpGet("https://bin.mudfish.net/r/334-5700-7816"))()
+        end})
+        
+        Tabs.Main:AddButton({
+        Title = "Skeleton Noobies",
+        Description = "Get Skeleton Noobies",
+        Callback = function()
+        loadstring(game:HttpGet("https://bin.mudfish.net/r/398-5826-2854"))()
+        end})
+        
+        Tabs.Main:AddButton({
+        Title = "nama",
+        Description = "Get",
+        Callback = function()
+        loadstring(game:HttpGet("https://bin.mudfish.net/r/519-8447-8680"))()
+        end})
+
+        Tabs.Main:AddButton({
+        Title = "Shadow Noobies",
+        Description = "Get Shadow Noobies",
+        Callback = function()
+        loadstring(game:HttpGet("https://bin.mudfish.net/r/492-2276-5118"))()
+        end})
+        
+        Tabs.Main:AddButton({
+        Title = "Zombie Noobies",
+        Description = "Get Zombie Noobies",
+        Callback = function()
+        loadstring(game:HttpGet("https://bin.mudfish.net/r/351-5760-0184"))()
+        end})
+        
+        Tabs.Main:AddButton({
+        Title = "Speaker Noobies",
+        Description = "Get Speaker Noobies",
+        Callback = function()
+        loadstring(game:HttpGet("https://bin.mudfish.net/r/241-0933-3735"))()
+        end})
+        
+        Tabs.Main:AddButton({
+        Title = "Dirt Noobies",
+        Description = "Get Dirt Noobies",
+        Callback = function()
+        loadstring(game:HttpGet("https://bin.mudfish.net/r/141-7402-2317"))()
+        end})
+        
+        Tabs.Main:AddButton({
+        Title = "Dead Tree Noobies",
+        Description = "Get Dead Tree Noobies",
+        Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/4MHBRbtA"))()
+        end})
+        
+        Tabs.Main:AddButton({
+        Title = "Cloud Noobies",
+        Description = "Get Cloud Noobies",
+        Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/gkbVMbUQ"))()
+        end})
+        
+        Tabs.Main:AddButton({
+        Title = "Water Noobies",
+        Description = "Get Water Noobies",
+        Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/mgcQUGEF"))()
+        end})
+        
+        Tabs.Main:AddButton({
+        Title = "Bubble Noobies",
+        Description = "Get Bubble Noobies",
+        Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/UrJiZH7F"))()
+        end})
+        
+        Tabs.Main:AddButton({
+        Title = "Crate Noobies",
+        Description = "Get Crate Noobies",
+        Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/bgceMrse"))()
+        end})
+        
+        Tabs.Main:AddButton({
+        Title = "Mimic Noobies",
+        Description = "Get Mimic Noobies",
+        Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/FeWxjLQy"))()
+        end})
+
+    Tabs.Main:AddButton({
+        Title = "Glass Noobies",
+        Description = "Get Glass Noobies",
+        Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/v926AyDz"))()
+        end})
+
+    Tabs.Main:AddButton({
+        Title = "Glow Noobies",
+        Description = "Get Glow Noobies",
+        Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/vwhavWR5"))()
+        end})
+        
+        Tabs.Main:AddButton({
+        Title = "Neon Noobies",
+        Description = "Get Neon Noobies",
+        Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/nSaBcfqe"))()
+        end})
+        
+        Tabs.Main:AddButton({
+        Title = "Knight Noobies",
+        Description = "Get Knight Noobies",
+        Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/pYwFPiKy"))()
+        end})
+
+   Tabs.Main:AddButton({
+        Title = "Skibidi Noobies",
+        Description = "Get Skibidi Noobies",
+        Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/GX9FurSR"))()
+        end})
+
+    Tabs.Main:AddButton({
+        Title = "Code Breaker Noobies",
+        Description = "Get Code Breaker Noobies",
+        Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/RaaLiU2b"))()
+        end})
+end
+
+Tabs.Main:AddButton({
+        Title = "Piracy Noobies",
+        Description = "Get piracy Noobie",
+        Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/gMYnkUwe"))()
+        end})
+        
+        Tabs.City:AddParagraph({
+        Title = "Common",
+        Content = "Here's All The Common Noobies\nSecond line!"})
+        
+        Tabs.City:AddParagraph({
+        Title = "Mythical",
+        Content = "Here's All The Mythical Noobies\nSecond line!"})
+        
+        Tabs.City:AddParagraph({
+        Title = "Exotic",
+        Content = "Here's All The Exotic Noobies\nSecond line!"})
+        
+        Tabs.City:AddButton({
+        Title = "Barista Noobies",
+        Description = "Get Barista Noobies",
+        Callback = function()
+        loadstring(game:HttpGet("https://bin.mudfish.net/r/225-8772-2694"))()
+        end})
+        
+        Tabs.City:AddButton({
+        Title = "Muscle Noobies",
+        Description = "Get Muscle Noobies",
+        Callback = function()
+        loadstring(game:HttpGet("https://bin.mudfish.net/r/237-8389-4839"))()
+        end})
+        
+        Tabs.City:AddButton({
+        Title = "Boxing Noobies",
+        Description = "Get Boxing Noobies",
+        Callback = function()
+        loadstring(game:HttpGet("https://bin.mudfish.net/r/112-1880-1622"))()
+        end})
+        
+        Tabs.City:AddButton({
+        Title = "Chef Noobies",
+        Description = "Get Chef Noobies",
+        Callback = function()
+        loadstring(game:HttpGet("https://bin.mudfish.net/r/004-0055-6341"))()
+        end})
+        
+        Tabs.City:AddButton({
+        Title = "Clown Noobies",
+        Description = "Get Clown Noobies",
+        Callback = function()
+        loadstring(game:HttpGet("https://bin.mudfish.net/r/341-7707-0417"))()
+        end})
+        
+        Tabs.City:AddButton({
+        Title = "Musician Noobies",
+        Description = "Get Musician Noobies",
+        Callback = function()
+        loadstring(game:HttpGet("https://bin.mudfish.net/r/736-8243-0220"))()
+        end})
+        
+        Tabs.City:AddButton({
+        Title = "Nurse Noobies",
+        Description = "Get Nurse Noobies",
+        Callback = function()
+        loadstring(game:HttpGet("https://bin.mudfish.net/r/746-2278-1319"))()
+        end})
+        
+        Tabs.City:AddButton({
+        Title = "Poor Noobies",
+        Description = "Get Poor Noobies",
+        Callback = function()
+        loadstring(game:HttpGet("https://bin.mudfish.net/r/548-1205-8404"))()
+        end})
+        
+        Tabs.City:AddButton({
+        Title = "Statue Of Noobies",
+        Description = "Get Statue Of Noobies",
+        Callback = function()
+        loadstring(game:HttpGet("https://bin.mudfish.net/r/201-1197-8302"))()
+        end})
+        
+        Tabs.City:AddButton({
+        Title = "Surgeon Noobies",
+        Description = "Get Surgeon Noobies",
+        Callback = function()
+        loadstring(game:HttpGet("https://bin.mudfish.net/r/508-4124-3683"))()
+        end})
+        
+        Tabs.City:AddButton({
+        Title = "Trash Can Noobies",
+        Description = "Get Trash can Noobies",
+        Callback = function()
+        loadstring(game:HttpGet("https://bin.mudfish.net/r/970-9134-9281"))()
+        end})
+        
+        Tabs.City:AddButton({
+        Title = "Bassketball Noobies",
+        Description = "Get Bassketball Noobies",
+        Callback = function()
+        loadstring(game:HttpGet("https://bin.mudfish.net/r/387-2503-3613"))()
+        end})
+        
+        Tabs.City:AddButton({
+        Title = "delivery Noobies",
+        Description = "Get Delivery Noobies",
+        Callback = function()
+        loadstring(game:HttpGet("https://bin.mudfish.net/r/432-9958-7743"))()
+        end})
+        
+        Tabs.City:AddButton({
+        Title = "Ink Noobies",
+        Description = "Get Ink Noobies",
+        Callback = function()
+        loadstring(game:HttpGet("https://bin.mudfish.net/r/217-8996-0598"))()
+        end})
+        
+        Tabs.City:AddButton({
+        Title = "Spider Noobies",
+        Description = "Get Spider Noobies",
+        Callback = function()
+        loadstring(game:HttpGet("https://bin.mudfish.net/r/823-2079-0290"))()
+        end})
+        
+        Tabs.City:AddButton({
+        Title = "Bussines Man Noobies",
+        Description = "Get Bussines Man Noobies",
+        Callback = function()
+        loadstring(game:HttpGet("https://bin.mudfish.net/r/291-0100-3606"))()
+        end})
+        
+        Tabs.City:AddButton({
+        Title = "Bee Noobies",
+        Description = "Get Bee Noobies",
+        Callback = function()
+        loadstring(game:HttpGet("https://bin.mudfish.net/r/235-9916-8991"))()
+        end})
+ 
+        Tabs.City:AddButton({
+        Title = "Baldi Noobies",
+        Description = "Get",
+        Callback = function()
+        loadstring(game:HttpGet("https://bin.mudfish.net/r/307-2253-3330"))()
+        end
